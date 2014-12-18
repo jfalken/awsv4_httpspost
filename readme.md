@@ -59,7 +59,7 @@ signature = hmac_sha256(signing_key, policy)
 signature_hex = signature.encode('hex')
 ```
 
-`signature_for_post` is what you would place in your HTTPS POST form; shown below
+`signature_hex` is what you would place in your HTTPS POST form; shown below
 
 ### POST FORM
 
